@@ -1,6 +1,6 @@
 'use strict';
  
-function ($timeout) {
+export default function ($timeout) {
 
 	return function (scope, elem, attrs) {
 

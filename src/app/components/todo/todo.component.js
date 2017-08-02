@@ -69,24 +69,24 @@ export default {
 		};
 
 		vm.revertEditing = function (todo) {
-			todos[todos.indexOf(todo)] = vm.originalTodo;
+			vm.todos[vm.todos.indexOf(todo)] = vm.originalTodo;
 			vm.doneEditing(vm.originalTodo);
 		};
 
 		vm.removeTodo = function (todo) {
-			todos.splice(todos.indexOf(todo), 1);
+			vm.todos.splice(todos.indexOf(todo), 1);
 		};
 
 
 		vm.clearDoneTodos = function () {
-			vm.todos = todos = todos.filter(function (val) {
+			vm.todos = todos = vm.todos.filter(function (val) {
 				return !val.completed;
 			});
 		};
 
 
 		vm.markAll = function (done) {
-			todos.forEach(function (todo) {
+			vm.todos.forEach(function (todo) {
 				todo.completed = done;
 			});
 		};
