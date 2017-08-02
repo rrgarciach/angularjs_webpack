@@ -1,8 +1,8 @@
-# AngularJS todoMVC App with Webpack and ES6 modules
+# AngularJS todoMVC App with ES6 modules
 
-Pseudocode of a refactor pattern from requireJS to webpack architecture
+A strategy to refactor AngularJS implementation from requireJS to ES6 modules with Webpack.
 
-This exercise is taking [requireJS example code](https://github.com/tastejs/todomvc/tree/gh-pages/examples/angularjs_require) from [todomvc repo](https://github.com/tastejs/todomvc) the base code to be refactored.
+(This exercise is taking [requireJS example code](https://github.com/tastejs/todomvc/tree/gh-pages/examples/angularjs_require) from [todomvc repo](https://github.com/tastejs/todomvc) as the base code to be refactored.)
 
 ## Description
 
@@ -25,3 +25,5 @@ If a new feature on TODOs wants to be added, business logic it's centralized. Ch
 ## Next steps on refactor process
 
 - Break down todo.component.js into smaller components.
+
+NOTE: This is a non working app; Required/mandatory configurations and setups are missing and should be considered as pseudocode.
