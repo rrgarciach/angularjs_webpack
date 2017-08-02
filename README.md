@@ -26,4 +26,4 @@ If a new feature on TODOs wants to be added, business logic it's centralized. Ch
 
 - Break down todo.component.js into smaller components.
 
-NOTE: This is a non working app; Required/mandatory configurations and setups are missing and should be considered as pseudocode.
+NOTE: This is a non working app; Required/mandatory configurations and setups are missing.
