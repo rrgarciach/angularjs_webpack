@@ -11,7 +11,6 @@ In order to achieve a more mantainable source code it's important to follow prac
 As a first step of refactor, the next enhancements were added:
 
 - Webpack implementation to handle application build and distribution.
-
 - ES6 module implementation.
 - Angular Components distribution.
 - Service layer to centralize and handle model/entities API.
@@ -22,3 +21,7 @@ As a first step of refactor, the next enhancements were added:
 Components approach stands for being a "piece" of code and view (or template) that has its own state and life cycle and it's communicated with other components. In order to avoid spreading bussiness logic through many different components (and turning maintenance into a complex task), a service layer is added to hold and handle bussiness logic rules by exposing an API that components can be consuming.
 
 If a new feature on TODOs wants to be added, business logic it's centralized. Change or add a new behavior on TODOs entities will be just matter of changing the corresponding TODO service (and class model) and its integrity kept by its unit test.
+
+## Next steps on refactor process
+
+- Break down todo.component.js into smaller components.
